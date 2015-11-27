@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		B854D67C1C074D1B008F0849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854D67B1C074D1B008F0849 /* AppDelegate.swift */; };
-		B854D67E1C074D1B008F0849 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854D67D1C074D1B008F0849 /* ViewController.swift */; };
 		B854D6811C074D1B008F0849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B854D67F1C074D1B008F0849 /* Main.storyboard */; };
 		B854D6831C074D1B008F0849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B854D6821C074D1B008F0849 /* Assets.xcassets */; };
 		B854D6861C074D1B008F0849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B854D6841C074D1B008F0849 /* LaunchScreen.storyboard */; };
-		B854D6911C074D1B008F0849 /* sparkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854D6901C074D1B008F0849 /* sparkTests.swift */; };
 		B854D69C1C074D1B008F0849 /* sparkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854D69B1C074D1B008F0849 /* sparkUITests.swift */; };
+		B854D6AA1C074EFE008F0849 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854D6A91C074EFE008F0849 /* AuthenticationViewController.swift */; };
+		B854D6AC1C074F40008F0849 /* AuthenticationViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854D6AB1C074F40008F0849 /* AuthenticationViewControllerTests.swift */; };
+		B854D6B21C07B1D3008F0849 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854D6B11C07B1D3008F0849 /* String.swift */; };
+		B854D6B41C07B56D008F0849 /* StringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854D6B31C07B56D008F0849 /* StringTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +38,19 @@
 /* Begin PBXFileReference section */
 		B854D6781C074D1B008F0849 /* spark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B854D67B1C074D1B008F0849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B854D67D1C074D1B008F0849 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B854D6801C074D1B008F0849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B854D6821C074D1B008F0849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B854D6851C074D1B008F0849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B854D6871C074D1B008F0849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B854D68C1C074D1B008F0849 /* sparkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sparkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B854D6901C074D1B008F0849 /* sparkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sparkTests.swift; sourceTree = "<group>"; };
 		B854D6921C074D1B008F0849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B854D6971C074D1B008F0849 /* sparkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sparkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B854D69B1C074D1B008F0849 /* sparkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sparkUITests.swift; sourceTree = "<group>"; };
 		B854D69D1C074D1B008F0849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B854D6A91C074EFE008F0849 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		B854D6AB1C074F40008F0849 /* AuthenticationViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewControllerTests.swift; sourceTree = "<group>"; };
+		B854D6B11C07B1D3008F0849 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		B854D6B31C07B56D008F0849 /* StringTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B82D5BDF1C0801460091BBBB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B854D69B1C074D1B008F0849 /* sparkUITests.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		B854D66F1C074D1B008F0849 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +109,9 @@
 		B854D67A1C074D1B008F0849 /* spark */ = {
 			isa = PBXGroup;
 			children = (
+				B854D6B51C07B97E008F0849 /* Extensions */,
+				B854D6B71C07B9A0008F0849 /* ViewControllers */,
 				B854D67B1C074D1B008F0849 /* AppDelegate.swift */,
-				B854D67D1C074D1B008F0849 /* ViewController.swift */,
 				B854D67F1C074D1B008F0849 /* Main.storyboard */,
 				B854D6821C074D1B008F0849 /* Assets.xcassets */,
 				B854D6841C074D1B008F0849 /* LaunchScreen.storyboard */,
@@ -110,7 +123,8 @@
 		B854D68F1C074D1B008F0849 /* sparkTests */ = {
 			isa = PBXGroup;
 			children = (
-				B854D6901C074D1B008F0849 /* sparkTests.swift */,
+				B854D6B91C07B9D5008F0849 /* ViewControllers */,
+				B854D6B81C07B9CB008F0849 /* Extensions */,
 				B854D6921C074D1B008F0849 /* Info.plist */,
 			);
 			path = sparkTests;
@@ -119,10 +133,42 @@
 		B854D69A1C074D1B008F0849 /* sparkUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B854D69B1C074D1B008F0849 /* sparkUITests.swift */,
+				B82D5BDF1C0801460091BBBB /* ViewControllers */,
 				B854D69D1C074D1B008F0849 /* Info.plist */,
 			);
 			path = sparkUITests;
+			sourceTree = "<group>";
+		};
+		B854D6B51C07B97E008F0849 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B854D6B11C07B1D3008F0849 /* String.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		B854D6B71C07B9A0008F0849 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B854D6A91C074EFE008F0849 /* AuthenticationViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B854D6B81C07B9CB008F0849 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B854D6B31C07B56D008F0849 /* StringTest.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		B854D6B91C07B9D5008F0849 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B854D6AB1C074F40008F0849 /* AuthenticationViewControllerTests.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +302,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B854D67E1C074D1B008F0849 /* ViewController.swift in Sources */,
+				B854D6AA1C074EFE008F0849 /* AuthenticationViewController.swift in Sources */,
+				B854D6B21C07B1D3008F0849 /* String.swift in Sources */,
 				B854D67C1C074D1B008F0849 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +312,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B854D6911C074D1B008F0849 /* sparkTests.swift in Sources */,
+				B854D6AC1C074F40008F0849 /* AuthenticationViewControllerTests.swift in Sources */,
+				B854D6B41C07B56D008F0849 /* StringTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = spark/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dorothy.spark;
@@ -408,6 +457,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = spark/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dorothy.spark;
@@ -482,6 +532,7 @@
 				B854D6A21C074D1B008F0849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B854D6A31C074D1B008F0849 /* Build configuration list for PBXNativeTarget "sparkTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +541,7 @@
 				B854D6A51C074D1B008F0849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B854D6A61C074D1B008F0849 /* Build configuration list for PBXNativeTarget "sparkUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +550,7 @@
 				B854D6A81C074D1B008F0849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,26 +1,11 @@
-//
-//  sparkUITests.swift
-//  sparkUITests
-//
-//  Created by Dorothy Thurston on 11/26/15.
-//  Copyright © 2015 Dorothy Thurston. All rights reserved.
-//
-
 import XCTest
+@testable import spark
 
-class sparkUITests: XCTestCase {
-        
+class AuthenticationViewControllerUITests: XCTestCase {
     override func setUp() {
         super.setUp()
-        
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-        
-        // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
-        // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
         XCUIApplication().launch()
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
     
     override func tearDown() {
@@ -28,9 +13,38 @@ class sparkUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testCorrectLoginCredentialsEnablesContinueButton() {
+        let app = XCUIApplication()
+        XCTAssertFalse(app.buttons["sign in"].enabled)
+        let sparkElementsQuery = app.otherElements.containingType(.StaticText, identifier:"Spark")
+        let textField = sparkElementsQuery.childrenMatchingType(.TextField).elementBoundByIndex(0)
+        textField.tap()
+        textField.typeText("d@d.com")
+        
+        let textField2 = sparkElementsQuery.childrenMatchingType(.TextField).elementBoundByIndex(1)
+        textField2.tap()
+        textField2.tap()
+        textField2.typeText("d1H")
+        XCTAssert(app.buttons["sign in"].enabled)
     }
     
+    func testIncorrectLoginCredentialsDoesNotEnableContinueButton() {
+        let app = XCUIApplication()
+        XCTAssertFalse(app.buttons["sign in"].enabled)
+        let sparkElementsQuery = app.otherElements.containingType(.StaticText, identifier:"Spark")
+        let textField = sparkElementsQuery.childrenMatchingType(.TextField).elementBoundByIndex(0)
+        textField.tap()
+        textField.typeText("fffnotanemail")
+        XCTAssertFalse(app.buttons["sign in"].enabled)
+        
+        textField.typeText("acorrectemail@address.com")
+        let textField2 = sparkElementsQuery.childrenMatchingType(.TextField).elementBoundByIndex(1)
+        textField2.tap()
+        textField2.typeText("anincorrectpassword")
+        XCTAssertFalse(app.buttons["sign in"].enabled)
+        
+        textField.tap()
+        textField.typeText("")
+        XCTAssertFalse(app.buttons["sign in"].enabled)
+    }
 }

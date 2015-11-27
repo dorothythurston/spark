@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  spark
-//
-//  Created by Dorothy Thurston on 11/26/15.
-//  Copyright © 2015 Dorothy Thurston. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
