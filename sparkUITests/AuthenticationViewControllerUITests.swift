@@ -47,4 +47,19 @@ class AuthenticationViewControllerUITests: XCTestCase {
         textField.typeText("")
         XCTAssertFalse(app.buttons["sign in"].enabled)
     }
+    
+    func testIncorrectLoginCredentialsDebugText() {
+        let app = XCUIApplication()
+        let sparkElementsQuery = app.otherElements.containingType(.StaticText, identifier:"Spark")
+        let textField = sparkElementsQuery.childrenMatchingType(.TextField).elementBoundByIndex(0)
+        textField.tap()
+        textField.typeText("incorrect@credentials.com")
+        
+        let textField2 = sparkElementsQuery.childrenMatchingType(.TextField).elementBoundByIndex(1)
+        textField2.tap()
+        textField2.typeText("b4D")
+        app.buttons["sign in"].tap()
+        
+        XCTAssert(app.staticTexts["Incorrect login credentials"].exists)
+    }
 }

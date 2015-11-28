@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B854B0FC1C094E860056F499 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854B0FB1C094E860056F499 /* Constants.swift */; };
+		B854B0FE1C094ED80056F499 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854B0FD1C094ED80056F499 /* Secret.swift */; };
 		B854D67C1C074D1B008F0849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854D67B1C074D1B008F0849 /* AppDelegate.swift */; };
 		B854D6811C074D1B008F0849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B854D67F1C074D1B008F0849 /* Main.storyboard */; };
 		B854D6831C074D1B008F0849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B854D6821C074D1B008F0849 /* Assets.xcassets */; };
 		B854D6861C074D1B008F0849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B854D6841C074D1B008F0849 /* LaunchScreen.storyboard */; };
-		B854D69C1C074D1B008F0849 /* sparkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854D69B1C074D1B008F0849 /* sparkUITests.swift */; };
+		B854D69C1C074D1B008F0849 /* AuthenticationViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854D69B1C074D1B008F0849 /* AuthenticationViewControllerUITests.swift */; };
 		B854D6AA1C074EFE008F0849 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854D6A91C074EFE008F0849 /* AuthenticationViewController.swift */; };
 		B854D6AC1C074F40008F0849 /* AuthenticationViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854D6AB1C074F40008F0849 /* AuthenticationViewControllerTests.swift */; };
 		B854D6B21C07B1D3008F0849 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854D6B11C07B1D3008F0849 /* String.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B854B0FB1C094E860056F499 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B854B0FD1C094ED80056F499 /* Secret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 		B854D6781C074D1B008F0849 /* spark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B854D67B1C074D1B008F0849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B854D6801C074D1B008F0849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +50,7 @@
 		B854D68C1C074D1B008F0849 /* sparkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sparkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B854D6921C074D1B008F0849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B854D6971C074D1B008F0849 /* sparkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sparkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B854D69B1C074D1B008F0849 /* sparkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sparkUITests.swift; sourceTree = "<group>"; };
+		B854D69B1C074D1B008F0849 /* AuthenticationViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewControllerUITests.swift; sourceTree = "<group>"; };
 		B854D69D1C074D1B008F0849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B854D6A91C074EFE008F0849 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		B854D6AB1C074F40008F0849 /* AuthenticationViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewControllerTests.swift; sourceTree = "<group>"; };
@@ -103,7 +107,7 @@
 		B82D5BDF1C0801460091BBBB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				B854D69B1C074D1B008F0849 /* sparkUITests.swift */,
+				B854D69B1C074D1B008F0849 /* AuthenticationViewControllerUITests.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -111,6 +115,7 @@
 		B854D66F1C074D1B008F0849 = {
 			isa = PBXGroup;
 			children = (
+				B854B0FD1C094ED80056F499 /* Secret.swift */,
 				B854D67A1C074D1B008F0849 /* spark */,
 				B854D68F1C074D1B008F0849 /* sparkTests */,
 				B854D69A1C074D1B008F0849 /* sparkUITests */,
@@ -140,6 +145,7 @@
 				B854D6821C074D1B008F0849 /* Assets.xcassets */,
 				B854D6841C074D1B008F0849 /* LaunchScreen.storyboard */,
 				B854D6871C074D1B008F0849 /* Info.plist */,
+				B854B0FB1C094E860056F499 /* Constants.swift */,
 			);
 			path = spark;
 			sourceTree = "<group>";
@@ -377,6 +383,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B854B0FC1C094E860056F499 /* Constants.swift in Sources */,
+				B854B0FE1C094ED80056F499 /* Secret.swift in Sources */,
 				B854D6AA1C074EFE008F0849 /* AuthenticationViewController.swift in Sources */,
 				B854D6B21C07B1D3008F0849 /* String.swift in Sources */,
 				B854D67C1C074D1B008F0849 /* AppDelegate.swift in Sources */,
@@ -396,7 +404,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B854D69C1C074D1B008F0849 /* sparkUITests.swift in Sources */,
+				B854D69C1C074D1B008F0849 /* AuthenticationViewControllerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

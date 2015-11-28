@@ -1,9 +1,11 @@
 import UIKit
+import Alamofire
 
 class AuthenticationViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var continueButton: UIButton!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var debugTextLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +24,7 @@ class AuthenticationViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func didPressContinueButton() {
-        //login
+        login(emailTextField!.text!, password: passwordTextField!.text!)
     }
     
     func setContinueButtonState() {
@@ -37,5 +39,29 @@ class AuthenticationViewController: UIViewController, UITextFieldDelegate {
         let email = emailTextField.text!
         let password = passwordTextField.text!
         return email.isValidEmailFormat() && password.isValidPasswordFormat()
+    }
+    
+    private func login(email: String, password: String) {
+        let headers = Constants.headers
+        let parameters = [
+            "session": [
+                "email": email,
+                "password": password
+            ]
+        ]
+        
+        Alamofire.request(.POST, Constants.sessionURL, headers: headers,  parameters: parameters, encoding: .JSON)
+            .validate()
+            .responseJSON { response in
+                switch response.result {
+                case .Success:
+                    print("Validation Successful")
+                case .Failure(let error):
+                    print(error)
+                    dispatch_async(dispatch_get_main_queue()) {
+                        self.debugTextLabel.text = "Incorrect login credentials"
+                    }
+                }
+        }
     }
 }

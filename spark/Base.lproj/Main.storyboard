@@ -45,6 +45,9 @@
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="sign in"/>
+                                <connections>
+                                    <action selector="didPressContinueButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="8vU-3t-0gi"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RsK-hF-Bwk">
                                 <rect key="frame" x="35" y="370" width="530" height="22"/>
@@ -84,6 +87,7 @@
                     </view>
                     <connections>
                         <outlet property="continueButton" destination="ztS-bm-WG5" id="XA3-BP-cWK"/>
+                        <outlet property="debugTextLabel" destination="RsK-hF-Bwk" id="xLc-RH-q1z"/>
                         <outlet property="emailTextField" destination="TiL-eO-IDJ" id="cWv-Tl-K83"/>
                         <outlet property="passwordTextField" destination="3yB-yf-e4x" id="1n1-JQ-AOm"/>
                     </connections>
