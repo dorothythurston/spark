@@ -5,6 +5,7 @@ use_frameworks!
 
 target 'spark' do
   pod 'Alamofire', '~> 3.0'
+  pod 'Nocilla'
 end
 
 target 'sparkTests' do

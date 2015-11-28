@@ -1,5 +1,6 @@
 import XCTest
 import UIKit
+import Nocilla
 @testable import spark
 
 class AuthenticationViewControllerTests: XCTestCase {
