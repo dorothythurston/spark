@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E09A7E9C2B6BED600210CD8 /* Pods_sparkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FEC710A2E0A5740E16EB45 /* Pods_sparkUITests.framework */; };
+		ACEAA7224C586E48341EB35E /* Pods_sparkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E35FB9DCD7C7AEA014FD960C /* Pods_sparkTests.framework */; };
 		B854B0FC1C094E860056F499 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854B0FB1C094E860056F499 /* Constants.swift */; };
-		B854B0FE1C094ED80056F499 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854B0FD1C094ED80056F499 /* Secret.swift */; };
 		B854D67C1C074D1B008F0849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854D67B1C074D1B008F0849 /* AppDelegate.swift */; };
 		B854D6811C074D1B008F0849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B854D67F1C074D1B008F0849 /* Main.storyboard */; };
 		B854D6831C074D1B008F0849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B854D6821C074D1B008F0849 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 		B854D6AC1C074F40008F0849 /* AuthenticationViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854D6AB1C074F40008F0849 /* AuthenticationViewControllerTests.swift */; };
 		B854D6B21C07B1D3008F0849 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854D6B11C07B1D3008F0849 /* String.swift */; };
 		B854D6B41C07B56D008F0849 /* StringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854D6B31C07B56D008F0849 /* StringTest.swift */; };
+		B8D5287C1C09662E0071C001 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D5287B1C09662E0071C001 /* Secret.swift */; };
 		F488D81BC4F31B3FB7E34156 /* Pods_spark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDED9812EA3DA527E4DC3507 /* Pods_spark.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,8 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0204C11338AEE709B6F6E6A4 /* Pods-sparkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sparkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sparkUITests/Pods-sparkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2AA4CC76951D749C4E7FFE72 /* Pods-sparkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sparkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sparkTests/Pods-sparkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B854B0FB1C094E860056F499 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		B854B0FD1C094ED80056F499 /* Secret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 		B854B1011C095C330056F499 /* spark-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "spark-Bridging-Header.h"; sourceTree = "<group>"; };
 		B854D6781C074D1B008F0849 /* spark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B854D67B1C074D1B008F0849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,7 +60,12 @@
 		B854D6AB1C074F40008F0849 /* AuthenticationViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewControllerTests.swift; sourceTree = "<group>"; };
 		B854D6B11C07B1D3008F0849 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		B854D6B31C07B56D008F0849 /* StringTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTest.swift; sourceTree = "<group>"; };
+		B8D5287B1C09662E0071C001 /* Secret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
+		D1BD04E425B24E67D5468A0F /* Pods-sparkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sparkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sparkTests/Pods-sparkTests.release.xcconfig"; sourceTree = "<group>"; };
+		D6FEC710A2E0A5740E16EB45 /* Pods_sparkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sparkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDED9812EA3DA527E4DC3507 /* Pods_spark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_spark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35FB9DCD7C7AEA014FD960C /* Pods_sparkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sparkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2229F02F4AF75311B3832F /* Pods-sparkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sparkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sparkUITests/Pods-sparkUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EF41CD0B9E304AEE0E04BA69 /* Pods-spark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spark.debug.xcconfig"; path = "Pods/Target Support Files/Pods-spark/Pods-spark.debug.xcconfig"; sourceTree = "<group>"; };
 		F49FF5491F75511B1AC90CBA /* Pods-spark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spark.release.xcconfig"; path = "Pods/Target Support Files/Pods-spark/Pods-spark.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACEAA7224C586E48341EB35E /* Pods_sparkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E09A7E9C2B6BED600210CD8 /* Pods_sparkUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				DDED9812EA3DA527E4DC3507 /* Pods_spark.framework */,
+				E35FB9DCD7C7AEA014FD960C /* Pods_sparkTests.framework */,
+				D6FEC710A2E0A5740E16EB45 /* Pods_sparkUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -101,6 +113,10 @@
 			children = (
 				EF41CD0B9E304AEE0E04BA69 /* Pods-spark.debug.xcconfig */,
 				F49FF5491F75511B1AC90CBA /* Pods-spark.release.xcconfig */,
+				2AA4CC76951D749C4E7FFE72 /* Pods-sparkTests.debug.xcconfig */,
+				D1BD04E425B24E67D5468A0F /* Pods-sparkTests.release.xcconfig */,
+				EA2229F02F4AF75311B3832F /* Pods-sparkUITests.debug.xcconfig */,
+				0204C11338AEE709B6F6E6A4 /* Pods-sparkUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -116,8 +132,8 @@
 		B854D66F1C074D1B008F0849 = {
 			isa = PBXGroup;
 			children = (
+				B8D5287B1C09662E0071C001 /* Secret.swift */,
 				B854B1011C095C330056F499 /* spark-Bridging-Header.h */,
-				B854B0FD1C094ED80056F499 /* Secret.swift */,
 				B854D67A1C074D1B008F0849 /* spark */,
 				B854D68F1C074D1B008F0849 /* sparkTests */,
 				B854D69A1C074D1B008F0849 /* sparkUITests */,
@@ -230,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B854D6A31C074D1B008F0849 /* Build configuration list for PBXNativeTarget "sparkTests" */;
 			buildPhases = (
+				576EF667228BA2F580D696BB /* Check Pods Manifest.lock */,
 				B854D6881C074D1B008F0849 /* Sources */,
 				B854D6891C074D1B008F0849 /* Frameworks */,
 				B854D68A1C074D1B008F0849 /* Resources */,
+				80332398893E7E51B7B8A45D /* Embed Pods Frameworks */,
+				3F55C7881F8646C972F06102 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,9 +267,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B854D6A61C074D1B008F0849 /* Build configuration list for PBXNativeTarget "sparkUITests" */;
 			buildPhases = (
+				47F1A66AE71F4869013ED1ED /* Check Pods Manifest.lock */,
 				B854D6931C074D1B008F0849 /* Sources */,
 				B854D6941C074D1B008F0849 /* Frameworks */,
 				B854D6951C074D1B008F0849 /* Resources */,
+				E80F85CD1B45E03B66957B4C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -333,6 +354,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3F55C7881F8646C972F06102 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sparkTests/Pods-sparkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47F1A66AE71F4869013ED1ED /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		48AF9DEE7963A5521A3EFAED /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,6 +397,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-spark/Pods-spark-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		576EF667228BA2F580D696BB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		80332398893E7E51B7B8A45D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sparkTests/Pods-sparkTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BA88AD656AA6DED167844ADD /* Check Pods Manifest.lock */ = {
@@ -378,6 +459,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-spark/Pods-spark-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E80F85CD1B45E03B66957B4C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sparkUITests/Pods-sparkUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -386,7 +482,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B854B0FC1C094E860056F499 /* Constants.swift in Sources */,
-				B854B0FE1C094ED80056F499 /* Secret.swift in Sources */,
+				B8D5287C1C09662E0071C001 /* Secret.swift in Sources */,
 				B854D6AA1C074EFE008F0849 /* AuthenticationViewController.swift in Sources */,
 				B854D6B21C07B1D3008F0849 /* String.swift in Sources */,
 				B854D67C1C074D1B008F0849 /* AppDelegate.swift in Sources */,
@@ -486,6 +582,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 			};
 			name = Debug;
 		};
@@ -522,6 +619,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -539,7 +637,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dorothy.spark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "spark-Bridging-Header.h";
-				USER_HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/\"/**";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 			};
 			name = Debug;
 		};
@@ -556,12 +654,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dorothy.spark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "spark-Bridging-Header.h";
-				USER_HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/\"/**";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 			};
 			name = Release;
 		};
 		B854D6A41C074D1B008F0849 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA4CC76951D749C4E7FFE72 /* Pods-sparkTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = sparkTests/Info.plist;
@@ -569,11 +668,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dorothy.sparkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spark.app/spark";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 			};
 			name = Debug;
 		};
 		B854D6A51C074D1B008F0849 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1BD04E425B24E67D5468A0F /* Pods-sparkTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = sparkTests/Info.plist;
@@ -581,29 +682,34 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dorothy.sparkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spark.app/spark";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 			};
 			name = Release;
 		};
 		B854D6A71C074D1B008F0849 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA2229F02F4AF75311B3832F /* Pods-sparkUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = sparkUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dorothy.sparkUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = spark;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
 		};
 		B854D6A81C074D1B008F0849 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0204C11338AEE709B6F6E6A4 /* Pods-sparkUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = sparkUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dorothy.sparkUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = spark;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;
